@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\code\\steve\\GreenDAO\\contracts\\contracts\\GreenDAO.sol": {
+    "D:\\code\\steve\\GreenDAO-Hedera\\contracts\\contracts\\GreenDAO.sol": {
       "lastModificationDate": 1734143143901,
       "contentHash": "28543d8ee2ca6a0ebb0f38f8d2634b89",
       "sourceName": "contracts/GreenDAO.sol",
@@ -45,7 +45,7 @@
         "GreenDAO"
       ]
     },
-    "D:\\code\\steve\\GreenDAO\\contracts\\contracts\\lib\\Strings.sol": {
+    "D:\\code\\steve\\GreenDAO-Hedera\\contracts\\contracts\\lib\\Strings.sol": {
       "lastModificationDate": 1734142950320,
       "contentHash": "0a7bdaca8ce69feac6afd90b5900c1b9",
       "sourceName": "contracts/lib/Strings.sol",
