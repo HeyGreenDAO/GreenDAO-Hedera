@@ -105,7 +105,7 @@ export default function JoinDAO({ Amount, show, onHide, address, title, dao_id }
         let Balance = await web3.eth.getBalance(window?.ethereum?.selectedAddress);
         let token = "HBAR";
         setToken(token);
-        setBalance((Balance / 1000000000000000000).toPrecision(5) +" "+ token);
+        setBalance((Balance / 1000000000000000000));
 
     }
 
@@ -159,7 +159,7 @@ export default function JoinDAO({ Amount, show, onHide, address, title, dao_id }
 
                                 <Input name="amount" defaultValue={Amount} disabled  />
                                 <div>
-                                    <p>Balance {Balance}</p>
+                                    <p>Balance {Balance.toPrecision(5) +" "+ Token}</p>
                                 </div>
                             </FormControl>
                            
